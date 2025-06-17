@@ -34,3 +34,11 @@ idInput.addEventListener('input', () => {
 });
 
 // Task 3
+
+const inputRange = document.getElementById('font-size-control');
+const text = document.getElementById('text');
+
+inputRange.addEventListener('input', () => {
+  const size = inputRange.value;
+  text.style.fontSize = `${size}px`;
+});
