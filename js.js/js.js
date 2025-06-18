@@ -27,9 +27,9 @@ idInput.addEventListener('input', () => {
   const requiredLength = Number(idInput.dataset.length);
 
   if (inputLength >= requiredLength) {
-    idInput.style.color = "green";
+    idInput.style.borderColor = "green";
   } else {
-    idInput.style.color = "red";
+    idInput.style.borderColor = "red";
   }
 });
 
